@@ -1,4 +1,4 @@
-package com.empresa.iniciardor_app;
+package console;
 
 /**
  * Revisão da sintaxe para loop em array em Java
