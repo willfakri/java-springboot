@@ -13,6 +13,7 @@ import java.util.Arrays;
  */
 public class Anime {
     private String nome;
+    static String produtora = "Bandai";
 
     @Getter
     @Setter
@@ -48,5 +49,9 @@ public class Anime {
 
     public void setEpisodios(int[] episodios) {
         this.episodios = episodios;
+    }
+
+    public static String getProdutora(){
+        return Anime.produtora;
     }
 }
